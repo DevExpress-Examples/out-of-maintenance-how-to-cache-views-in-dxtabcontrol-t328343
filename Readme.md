@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/DXTabControlExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXTabControlExample/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/DXTabControlExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/DXTabControlExample/MainWindow.xaml))
+* [TestWindow.xaml](./CS/DXTabControlExample/TestWindow.xaml) (VB: [TestWindow.xaml](./VB/DXTabControlExample/TestWindow.xaml))
+* [TestWindow.xaml.cs](./CS/DXTabControlExample/TestWindow.xaml.cs) (VB: [TestWindow.xaml](./VB/DXTabControlExample/TestWindow.xaml))
+<!-- default file list end -->
 # How to Cache Views in DXTabControl
 
 
