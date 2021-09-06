@@ -16,20 +16,20 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace DXTabControlExample
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits DXWindow
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits DXWindow
 
-        Public Sub New()
-            InitializeComponent()
-        End Sub
+		Public Sub New()
+			InitializeComponent()
+		End Sub
 
-        Private Sub OnShowTestWindowButtonClick(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            Dim window As New TestWindow(CType(cacheModeComboBox.EditValue, TabContentCacheMode))
-            window.Show()
-        End Sub
+		Private Sub OnShowTestWindowButtonClick(ByVal sender As Object, ByVal e As RoutedEventArgs)
+			Dim window As New TestWindow(CType(cacheModeComboBox.EditValue, TabContentCacheMode))
+			window.Show()
+		End Sub
 
-    End Class
+	End Class
 End Namespace
